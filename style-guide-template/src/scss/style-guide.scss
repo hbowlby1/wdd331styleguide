@@ -52,6 +52,56 @@ xNavigation
 
 -------------------------------- */
 
+.cd-primary-nav ul{
+  display: flex;
+  justify-content: space-evenly;
+
+  li{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+  }
+    :hover{
+      background-color: blue;
+    }
+  a{
+    color: black;
+  }
+    :hover{
+      color: white;
+    }
+}
+  
+.cd-secondary-nav{
+  display: flex;
+  display: column;
+  
+  li{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    transition: width 2s;
+  }
+    :hover{
+      width: 200px;
+      transition: width 1.2s;
+      color: white;
+    }
+  
+  a{
+    color: black;
+  }
+    :hover{
+      color: white;
+    }
+
+}
+
+
 header {
   background-color: $color-2;
 }
