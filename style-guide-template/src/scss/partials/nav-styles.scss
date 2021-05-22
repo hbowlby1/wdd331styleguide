@@ -1,23 +1,24 @@
+@import "variables.scss";
 
 .cd-primary-nav ul{
     display: flex;
     justify-content: space-evenly;
   
     li{
-      background-color: red;
+      background-color: $color-2;
       margin: 10px;
       padding: 10px;
       flex-grow: 1;
       text-align: center;
     }
       :hover{
-        background-color: blue;
+        background-color: $color-1;
       }
     a{
-      color: black;
+      color: $color-4;
     }
       :hover{
-        color: white;
+        color: $color-3;
       }
   }
     
@@ -26,7 +27,7 @@
     display: column;
     
     li{
-      background-color: red;
+      background-color: $color-2;
       margin: 10px;
       padding: 10px;
       border-radius: 5px;
@@ -36,14 +37,14 @@
       :hover{
         width: 200px;
         transition: width 1.2s;
-        color: white;
+        color: $color-3;
       }
     
     a{
-      color: black;
+      color: $color-4;
     }
       :hover{
-        color: white;
+        color: $color-3;
       }
   
   }
